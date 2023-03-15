@@ -18,8 +18,8 @@ https://vision-x.vercel.app/
 
 ## To Run/Change this design:
 ```
-git clone https://github.com/faranbutt/Vision-X
-cd Vision-X
+git clone https://github.com/faranbutt/Portfolio-Website
+cd Portfolio-Website
 npm install
 npm run dev
 ```
