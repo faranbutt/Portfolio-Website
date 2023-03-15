@@ -12,7 +12,7 @@
 * The interface is interactive due to Tailwind be interactive with some meaningfull colors. 🎨
 
 ## FrontEnd Deployed on Vercel:
-https://vision-x.vercel.app/
+https://faran-butt.vercel.app/
 
 ## BackEnd and Database Deplioyed on Heroku:
 
