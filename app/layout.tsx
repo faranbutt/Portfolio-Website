@@ -1,4 +1,3 @@
-import { Head } from 'next/document'
 import './globals.css'
 export const metadata = {
   title: 'Faran Portfolio',
