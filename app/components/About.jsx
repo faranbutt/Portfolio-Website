@@ -1,5 +1,5 @@
 'use client'
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import {motion} from 'framer-motion';
 import {styles} from '../styles';
 import {services} from '../constants/index'
@@ -8,9 +8,14 @@ import Image from 'next/image';
 import VanillaTilt from 'vanilla-tilt';
 
 const ServiceCard = ({index,title,icon,options}) => {
+  const tilt = useRef(null);
+
+  useEffect(() => {
+    VanillaTilt.init(tilt.current, options);
+  }, [options]);
 
   return(
-    <div className="xs:w-[250px] w-full">
+    <div className="xs:w-[250px] w-full" ref={tilt}>
       <motion.div
       variants={fadeIn('right',"spring",0.5*index,0.45)}
       className={"w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"}
