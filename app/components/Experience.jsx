@@ -4,7 +4,7 @@ import { textVariant } from '../utils/motion';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 
-const Experience = () => {
+function Experience(){
   return (
     <>
     <motion.div variants={textVariant()}>
