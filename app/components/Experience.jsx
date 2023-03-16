@@ -9,6 +9,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { experiences } from "../constants";
 import Image from "next/image";
+import "react-vertical-timeline-component/style.min.css";
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -22,12 +23,10 @@ const ExperienceCard = ({ experience }) => {
     iconStyle={{ background: experience.iconBg }}
     icon={
       <div className='flex justify-center items-center w-full h-full'>
-        <Image
+        <img
           src={experience.icon}
           alt={experience.company_name}
-          width={20}
-          height={20}
-          className='object-contain'
+          className='w-[60%] h-[60%] object-contain'
         />
       </div>
     }
