@@ -6,6 +6,7 @@ import {services} from '../constants/index'
 import {fadeIn, textVariant} from '../utils/motion';
 import Image from 'next/image';
 import VanillaTilt from 'vanilla-tilt';
+import { SectionWrapper } from '../hoc';
 
 const ServiceCard = ({index,title,icon,options}) => {
   const tilt = useRef(null);
@@ -31,7 +32,7 @@ const ServiceCard = ({index,title,icon,options}) => {
   );
 }
 
-export default function About(){
+const About = () => {
   const options = {
     max:45,
     scale:1,
@@ -64,3 +65,4 @@ export default function About(){
   )
 }
 
+export default SectionWrapper(About,"about");
