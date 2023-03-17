@@ -3,18 +3,6 @@ import {
     backend,
     creator,
     web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
     meta,
     starbucks,
     tesla,
@@ -62,55 +50,55 @@ import {
   const technologies = [
     {
       name: "HTML 5",
-      icon: html,
+      icon: '/html.png',
     },
     {
       name: "CSS 3",
-      icon: css,
+      icon: '/css.png',
     },
     {
       name: "JavaScript",
-      icon: javascript,
+      icon: '/javascript.png',
     },
     {
       name: "TypeScript",
-      icon: typescript,
+      icon: '/typescript.png',
     },
     {
       name: "React JS",
-      icon: reactjs,
+      icon: '/reactjs.png',
     },
     {
       name: "Redux Toolkit",
-      icon: redux,
+      icon: '/redux.png',
     },
     {
       name: "Tailwind CSS",
-      icon: tailwind,
+      icon: '/tailwind.png',
     },
     {
       name: "Node JS",
-      icon: nodejs,
+      icon: '/nodejs.png',
     },
     {
       name: "MongoDB",
-      icon: mongodb,
+      icon: '/mongodb.png',
     },
     {
       name: "Three JS",
-      icon: threejs,
+      icon: '/threejs.svg',
     },
     {
       name: "git",
-      icon: git,
+      icon: '/git.png',
     },
     {
       name: "figma",
-      icon: figma,
+      icon: '/figma.png',
     },
     {
       name: "docker",
-      icon: docker,
+      icon: '/docker.png',
     },
   ];
   
