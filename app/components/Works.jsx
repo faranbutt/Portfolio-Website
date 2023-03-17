@@ -1,5 +1,5 @@
 'use client'
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import {motion} from 'framer-motion'
