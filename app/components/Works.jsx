@@ -6,6 +6,7 @@ import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import {styles} from '../styles'
 import VanillaTilt from "vanilla-tilt";
+import Image from "next/image";
 
 const ProjectCard = ({ index, options, name, description, tags, image, source_code_link }) => {
   const tilt = useRef(null);
