@@ -56,7 +56,7 @@ const Works = () => {
           skills and experience. Each project is described briefly and includes
           links to both the code repository and deployments. These projects
           showcase my ability to solve complex problems, work with various
-          technologies, and manage projects effectively. I'm proud to share
+          technologies, and manage projects effectively. I&apos;m proud to share
           these examples of my work, which demonstrate my proficiency in
           different programming languages and my creativity in addressing
           challenges. Please take a look and let me know if you have any
