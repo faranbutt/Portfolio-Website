@@ -172,19 +172,19 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Faran is an intelligent and deeply creative person. He’s thorough and has great eye for details. I worked with him on several projects while we were teammates at Influx Zone and I was always inspired by his critical thinking and tenacity for seeing things through. ",
+      name: "Jannat",
+      designation: "VP",
+      company: "IET",
+      image: "/jannat.jpeg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Faran combines a very solid foundation of strong business acumen with a great understanding of how technology can drive business outcomes. His focus on understanding the end objective of his customer goes a long way to helping Faran have great success. As a member of my team at Zimco, I am always impressed by Faran's drive, perseverance and commitment to solid execution. He is a consummate professional and consistently achieves his work objectives.",
+      name: "Mahnoor Maleeka",
+      designation: "Sales Lead",
+      company: "Zimco Corp",
+      image: "/mahnoor.jpeg",
     },
     {
       testimonial:
