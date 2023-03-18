@@ -54,6 +54,7 @@ const Feedbacks = () => {
           <p className={`${styles.sectionSubText}`}>What other say</p>
           <h2 className={`${styles.sectionHeadText}`}>Testimonials.</h2>
         </motion.div>
+      </div>
         <div className={`${styles.paddingX} -mt-24 pb-14 flex flex-wrap gap-7`}>
           {testimonials.map((testimonial, index) => (
             <FeedbackCard
@@ -62,7 +63,6 @@ const Feedbacks = () => {
               {...testimonial}
             />
           ))}
-        </div>
       </div>
     </div>
   );
