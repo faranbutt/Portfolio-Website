@@ -40,7 +40,7 @@ const Contact = () => {
           </label>
           <label htmlFor="" className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
-            <input rows="7" name="message" value={form.message} onChange={handleChange} placeholder={'What do  your want to say?'} className={"bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"} />
+            <textarea rows="7" name="message" value={form.message} onChange={handleChange} placeholder={'What do  your want to say?'} className={"bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"} />
           </label>
         </form>
       </motion.div>      
