@@ -102,7 +102,7 @@ import {
     },
     {
       name: "terraform",
-      icon: '/terra.svg',
+      icon: '/terraform.svg',
     },
     {
       name: "docker",
