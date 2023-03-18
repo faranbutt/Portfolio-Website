@@ -85,16 +85,16 @@ import {
       icon: '/express.svg',
     },
     {
-      name: "Node JS",
-      icon: '/nodejs.png',
+      name: "Spring Boot",
+      icon: '/spring.svg',
     },
     {
-      name: "MongoDB",
-      icon: '/mongodb.png',
+      name: "GraphQL",
+      icon: '/graphql.svg',
     },
     {
-      name: "Three JS",
-      icon: '/threejs.svg',
+      name: "Tailwind CSS",
+      icon: '/tailwind.png',
     },
     {
       name: "git",
@@ -107,6 +107,10 @@ import {
     {
       name: "docker",
       icon: '/docker.png',
+    },
+    {
+      name: "Kubernetes",
+      icon: '/kube.svg',
     },
   ];
   
