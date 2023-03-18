@@ -57,20 +57,12 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: '/html.png',
-    },
-    {
-      name: "CSS 3",
-      icon: '/css.png',
-    },
-    {
-      name: "JavaScript",
-      icon: '/javascript.png',
-    },
-    {
       name: "TypeScript",
       icon: '/typescript.png',
+    },
+    {
+      name: "Next JS",
+      icon: '/nextjs.svg',
     },
     {
       name: "React JS",
@@ -81,8 +73,16 @@ import {
       icon: '/redux.png',
     },
     {
-      name: "Tailwind CSS",
-      icon: '/tailwind.png',
+      name: "Node JS",
+      icon: '/nodejs.png',
+    },
+    {
+      name: "Django",
+      icon: '/django.svg',
+    },
+    {
+      name: "Express",
+      icon: '/express.svg',
     },
     {
       name: "Node JS",
@@ -101,8 +101,8 @@ import {
       icon: '/git.png',
     },
     {
-      name: "figma",
-      icon: '/figma.png',
+      name: "terraform",
+      icon: '/terra.svg',
     },
     {
       name: "docker",
