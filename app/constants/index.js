@@ -180,7 +180,7 @@ import {
     },
     {
       testimonial:
-        "Faran combines a very solid foundation of strong business acumen with a great understanding of how technology can drive business outcomes. His focus on understanding the end objective of his customer goes a long way to helping Faran have great success. As a member of my team at Zimco, I am always impressed by Faran's drive, perseverance and commitment to solid execution. He is a consummate professional and consistently achieves his work objectives.",
+        "Faran combines a very solid foundation of strong business acumen with a great understanding of how technology can drive business outcomes ...",
       name: "Mahnoor Maleeka",
       designation: "Sales Lead",
       company: "Zimco Corp",
@@ -192,7 +192,7 @@ import {
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: "/lis.jpg",
     },
   ];
   
