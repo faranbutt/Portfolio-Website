@@ -77,8 +77,8 @@ import {
       icon: '/nodejs.png',
     },
     {
-      name: "Django",
-      icon: '/django.svg',
+      name: "Python",
+      icon: '/python.svg',
     },
     {
       name: "Express",
