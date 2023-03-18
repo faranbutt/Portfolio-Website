@@ -1,7 +1,7 @@
 'use client'
 import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import { OrbitControls, Preload, useGLTF,Html } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Earth = () => {
@@ -15,6 +15,7 @@ const Earth = () => {
 export default function EarthCanvas(){
   return (
     <Canvas shadows frameloop="demand" gl={{preserveDrawingBuffer: true}} camera={{}}>
+      <Html>
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls 
         autoRotate
@@ -24,6 +25,7 @@ export default function EarthCanvas(){
         /> 
         <Earth />
       </Suspense>
+      </Html>
     </Canvas>
   )
 }
