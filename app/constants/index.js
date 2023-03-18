@@ -43,11 +43,15 @@ import {
     },
     {
       title: "Data Scientist",
-      icon: creator,
+      icon: backend,
     },
     {
       title: "Devops Engineer",
-      icon: creator,
+      icon: web,
+    },
+    {
+      title: "Web3 Developer",
+      icon: mobile,
     },
   ];
   
