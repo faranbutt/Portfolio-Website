@@ -5,17 +5,15 @@ import { OrbitControls, Preload, useGLTF,Html } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Earth = () => {
+  const earth = useGLTF('./planet/scene.gltf');
   return(
-    <div>
-      Earth
-    </div>
+    <primitive object={earth.scene} />
   );
 }
 
 export default function EarthCanvas(){
   return (
     <Canvas shadows frameloop="demand" gl={{preserveDrawingBuffer: true}} camera={{}}>
-      <Html>
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls 
         autoRotate
@@ -25,7 +23,6 @@ export default function EarthCanvas(){
         /> 
         <Earth />
       </Suspense>
-      </Html>
     </Canvas>
   )
 }
