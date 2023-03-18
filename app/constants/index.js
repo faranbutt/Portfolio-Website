@@ -82,7 +82,7 @@ import {
     },
     {
       name: "Express",
-      icon: '/express.svg',
+      icon: '/express.png',
     },
     {
       name: "Spring Boot",
