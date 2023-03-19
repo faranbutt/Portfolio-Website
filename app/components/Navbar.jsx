@@ -4,7 +4,7 @@ import Link from "next/link";
 import {navLinks} from '../constants'
 import { useState } from "react";
 import { styles } from "../styles";
-import {menu, close} from '../assets'
+import {menu, close, github} from '../assets'
 export default function Navbar() {
   const [active, setActive] = useState()
   const [toggle, setToggle] = useState(false)
@@ -40,7 +40,7 @@ export default function Navbar() {
               setActive(link.title);
                     }}
             >
-              <Link href={`#${link.id}`}>{link.title}</Link>
+              {link.id==="github" ? (<Link href={`https://github.com/faranbutt`}><Image src={"/github.png"} alt='logo' height={30} width={30} className='rounded-full object-contain'></Image></Link>):(<Link href={`#${link.id}`}>{link.title}</Link>)}
             </li>
           ))}
         </ul>
