@@ -118,7 +118,7 @@ import {
     {
       title: "Researcher",
       company_name: "NCAI",
-      icon: starbucks,
+      icon: '/ncai.jpeg',
       iconBg: "#383E56",
       date: "September 2022 - Present",
       points: [
@@ -132,7 +132,7 @@ import {
     {
       title: "Embedded Engineer",
       company_name: "Technosol Private Limited",
-      icon: tesla,
+      icon:'/technosol.jpeg',
       iconBg: "#E6DEDD",
       date: "Oct 2020 - Oct 2021",
       points: [
