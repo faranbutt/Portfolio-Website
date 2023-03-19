@@ -164,7 +164,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Faran optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
@@ -201,44 +201,44 @@ import {
     {
       name: "Job IT",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This template was made for an open source project Panaverse DAO.The template was made using Next and Chakra UI.",
       tags: [
         {
-          name: "react",
+          name: "NEXT.js",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "ChakraUI",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "NodeJS",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: '/pana.png',
+      source_code_link: "https://github.com/faranbutt/Panaverse-DAO",
     },
     {
-      name: "Trip Guide",
+      name: "Kings Klothing",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive Full Stack Ecommerce platform that allows users to book choose products gender wise ,Add to Cart and remove products from the cart.The user can also register and sign in the ecomm app to save there specified purchases",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Firebase",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "GraphQl",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: '/ecom.png',
+      source_code_link: "https://github.com/faranbutt/Kings-Klothing",
     },
   ];
   
