@@ -174,25 +174,29 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Vision X",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This website is designed to provide facial recognition capabilities using state-of-the-art technologies like React, Postgre SQL, and Express. With this website, users can easily upload images and identify people using facial recognition algorithms.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Postgre SQL",
           color: "green-text-gradient",
         },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "Express",
+          color: "yellow-text-gradient",
+        },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/faranbutt/Portfolio-Website",
     },
     {
       name: "Job IT",
