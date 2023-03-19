@@ -176,7 +176,7 @@ import {
     {
       name: "Vision X",
       description:
-        "This website is designed to provide facial recognition capabilities using state-of-the-art technologies like React, Postgre SQL, and Express. With this website, users can easily upload images and identify people using facial recognition algorithms.",
+        "This Full Stack App is designed to provide facial recognition capabilities using state-of-the-art technologies like React, Postgre SQL, and Express. With this website, users can easily upload images and identify people using facial recognition algorithms.",
       tags: [
         {
           name: "React",
@@ -187,7 +187,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
         {
@@ -199,12 +199,12 @@ import {
       source_code_link: "https://github.com/faranbutt/Portfolio-Website",
     },
     {
-      name: "Job IT",
+      name: "Panaverse",
       description:
         "This template was made for an open source project Panaverse DAO.The template was made using Next and Chakra UI.",
       tags: [
         {
-          name: "NEXT.js",
+          name: "Next.js",
           color: "blue-text-gradient",
         },
         {
