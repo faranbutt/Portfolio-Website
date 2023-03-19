@@ -22,7 +22,8 @@ export default function Navbar() {
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link)=>(
             <li key={link.id} className={`${active === link.title ? "text-white" : "text-secondary" } hover:text-white text-[18px] font-medium cursor-pointer`} onClick={()=>setActive(link.title)} >
-              <Link href={`#${link.id}`}>{link.title}</Link>
+              {/* <Link href={`#${link.id}`}>{link.title}</Link> */}
+              {link.id=="github" ? (<Link href={`https://github.com/faranbutt`}><Image src={"/github.png"} alt='logo' height={30} width={30} className='rounded-full object-contain'></Image></Link>):(<Link href={`#${link.id}`}>{link.title}</Link>)}
             </li>
           ))}
         </ul>
@@ -40,8 +41,8 @@ export default function Navbar() {
               setActive(link.title);
                     }}
             >
-              {/* <Link href={`#${link.id}`}>{link.title}</Link> */}
-              {link.title=="Github" ? (<Link href={`https://github.com/faranbutt`}><Image src={"/github.png"} alt='logo' height={30} width={30} className='rounded-full object-contain'></Image></Link>):(<Link href={`#${link.id}`}>{link.title}</Link>)}
+              <Link href={`#${link.id}`}>{link.title}</Link>
+              {/* {link.title=="Github" ? (<Link href={`https://github.com/faranbutt`}><Image src={"/github.png"} alt='logo' height={30} width={30} className='rounded-full object-contain'></Image></Link>):(<Link href={`#${link.id}`}>{link.title}</Link>)} */}
             </li>
           ))}
         </ul>
