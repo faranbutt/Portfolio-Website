@@ -195,7 +195,7 @@ import {
           color: "yellow-text-gradient",
         },
       ],
-      image: carrent,
+      image: '/web1.png',
       source_code_link: "https://github.com/faranbutt/Portfolio-Website",
     },
     {
