@@ -4,17 +4,15 @@
 * The application uses RESTApi written with NodeJS,Express and Helmet to storre users on to database.
 ## Technologies used:
 * Front End ===:> NextJS & Tailwind CSS, Vercel
-* Back End ===:> NodeJS, PostgreSQL 
+* Back End ===:> Emailjs
 ## Key Features:
-* Users Registration, SignIn and SignOut functionality implemented 🔒
+* Users Contact Form 🔒
 * Optimized and Fast 🚀
 * Fully responsive design been tested on several devices 📱
 * The interface is interactive due to Tailwind be interactive with some meaningfull colors. 🎨
 
 ## FrontEnd Deployed on Vercel:
 https://faran-butt.vercel.app/
-
-## BackEnd and Database Deplioyed on Heroku:
 
 ## To Run/Change this design:
 ```
