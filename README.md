@@ -1,7 +1,5 @@
 ## Faran-DEV (Full Stack Portfolio Website) 👨‍💻
 * This is a personal project to challenge myself to create my own personal website.
-
-* The application uses RESTApi written with NodeJS,Express and Helmet to storre users on to database.
 ## Technologies used:
 * Front End ===:> NextJS & Tailwind CSS, Vercel
 * Back End ===:> Emailjs
